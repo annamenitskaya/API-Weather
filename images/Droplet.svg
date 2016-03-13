@@ -1,0 +1,17 @@
+<?xml version="1.0"?><svg width="394.41351" height="554.93317" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0" id="svg_1"/>
+  </pattern>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g2462">
+    <path id="path2530" d="m391.416168,362.499298c0,104.015472 -86.773315,188.433807 -193.690598,188.433807c-106.91729,0 -195.668651,-84.437134 -193.690491,-188.433807c2.6283,-139.498657 109.114677,-196.31897 193.690491,-356.650448c89.832779,155.074704 193.690598,252.634945 193.690598,356.650448z" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-width="0" fill-rule="evenodd" fill="#000000"/>
+    <path stroke-linecap="square" stroke-linejoin="bevel" id="path3520" d="m373.925781,361.386383c0,93.977234 -78.615723,170.248749 -175.481491,170.248749c-96.865875,0 -177.273804,-76.288391 -175.48176,-170.248749c2.381275,-126.036301 98.856844,-177.373184 175.48176,-322.231724c81.387314,140.109104 175.481491,228.254276 175.481491,322.231724z" stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-width="3" fill-rule="evenodd" fill="#ffffff"/>
+   </g>
+  </g>
+ </g>
+</svg>

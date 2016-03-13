@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+ <script src="js/weather.js"></script>
+
+  <body class="body page-index clearfix">
+    <div class="container clearfix">
+      <p class="location">
+      </p>
+      <p id="temp"></p>
+      <div id="picture"></div>
+      <div id="icon"></div>
+
+      <div class="text-center">
+
+        <div class="text-center">
+          <div class="inline-block">
+
+          </div>
+
+
+          <div class="inline-block panel temp-panel" id="temperatureDisplay">
+
+            <div id="description"></div>
+          </div>
+        </div>
+        <!-- End of temperature display -->
+        <!-- Weather infos -->
+        <div class="text-center">
+
+          <div class="inline-block panel info-panel" style="border-top-left-radius: 0.5em;border-bottom-left-radius: 0.5em;">
+
+            <div id="w">Wind</div>
+            <div id="windspeed">
+            </div>
+          </div>
+
+          <div id="h">Humidity</div>
+          <div id="humidity"></div>
+        </div>
+        <div>
+          <div id="pressurepanel">Pressure </div>
+          <div id="pressure"> </div>
+        </div>
+
+
+      </div>
+      <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+        <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </body>
+
+</html>
+
