@@ -1,4 +1,4 @@
-  body {
+   body {
   background-color: rgba(116, 220, 139, 1);
   /* font: 400 1em/1.38 Montserrat; */
    font-family: 'Lato', sans-serif;  
@@ -131,10 +131,10 @@
   position: absolute;
   z-index: 10;
     top: 170px;
-  left: 280px;
+  left: 220px;
   width: 250px;
   min-height: 29px;
-  font-size: 1em;
+  font-size: 1 em;
 
   text-align: center;
   color: #ffffff;
@@ -156,15 +156,15 @@
   z-index: 10;
     top: 190px;
   left: 235px;
-  width: 200px;
+  width: 200
 }
 #pressure {
    position: absolute;
   z-index: 10;
     top: 190px;
-  left: 305px;
+  left: 308px;
   width: 300px;
-  font-size: 1em;
+  font-size: 1em
 }
 
 
