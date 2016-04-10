@@ -156,14 +156,15 @@
   z-index: 10;
     top: 190px;
   left: 235px;
-  width: 200
+  width: 200px;
 }
 #pressure {
    position: absolute;
   z-index: 10;
     top: 190px;
   left: 305px;
-  width: 300px
+  width: 300px;
+  font-size: 1em;
 }
 
 
