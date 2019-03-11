@@ -7,64 +7,57 @@
   <title>Weather App</title>
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
- <script src="js/weather.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="js/weather.js"></script>
+</head>
 
-  <body class="body page-index clearfix">
-    <div class="container clearfix">
-      <p class="location">
-      </p>
-      <p id="temp"></p>
-      <div id="picture"></div>
-      <div id="icon"></div>
-
-      <div class="text-center">
-
-        <div class="text-center">
-          <div class="inline-block">
-
-          </div>
+<body>
+  <div class="container clearfix">
+    <div class="weather-wrapper row">
+      <div class="col-md-5 background-color">
+        <div class="location"></div>
+        <div id="temp"></div>
+        <div id="picture" class="d-inline-block"> </div>
+        <div id="description"></div>
 
 
-          <div class="inline-block panel temp-panel" id="temperatureDisplay">
-
-            <div id="description"></div>
-          </div>
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+          <label class="onoffswitch-label" for="myonoffswitch">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+          </label>
         </div>
-        <!-- End of temperature display -->
-        <!-- Weather infos -->
-        <div class="text-center">
-
-          <div class="inline-block panel info-panel" style="border-top-left-radius: 0.5em;border-bottom-left-radius: 0.5em;">
-
-            <div id="w">Wind</div>
-            <div id="windspeed">
-            </div>
-          </div>
-
-          <div id="h">Humidity</div>
-          <div id="humidity"></div>
-        </div>
-        <div>
-          <div id="pressurepanel">Pressure </div>
-          <div id="pressure"> </div>
-        </div>
-
-
       </div>
-      <div class="onoffswitch">
-        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-        <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
+      <div class="col-md-7 text-center">
+        <div class="row">
+          <div class="col-4">
+        <i class="fas fa-wind"></i>
+        <div id="windspeed"></div>
+        <div class="label">Wind</div>
+      </div>
+      <div class="col-4">
+        <i class="fas fa-water"></i>
+        <div id="humidity"></div>
+        <div class="label">Humidity</div>
+      </div>
+      <div class="col-4">
+        <i class="fas fa-tachometer-alt"></i>
+        <div id="pressure"> </div>
+        <div class="label">Pressure</div>
+      </div>
+      </div>
       </div>
     </div>
-    </div>
-    </div>
-
-  </body>
+  </div>
+</body>
 
 </html>
-
